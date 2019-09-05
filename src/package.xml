@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>BaseHandler</members>
+        <members>BaseProvider</members>
+        <members>ByPassLogicModel</members>
+        <members>ByPassLogicModelTest</members>
+        <members>HandlerDispatcher</members>
+        <members>IHandler</members>
+        <members>ILogContext</members>
+        <members>IProvider</members>
+        <members>ITriggerHandler</members>
+        <members>Logger</members>
+        <members>LoggerTest</members>
+        <members>TriggerContextBuilder</members>
+        <members>TriggerContextData</members>
+        <members>TriggerDispatcher</members>
+        <members>TriggerDispatcherTest</members>
+        <members>InvalidOperationException</members>
+        <members>IllegalArgumentException</members>
+        <members>NoOp</members>
+        <members>NoOpTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Bypass_Settings__c</members>
+        <members>Log__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+    <members>API - No permission</members>
+    <name>Profile</name>
+    </types>
+
+    <version>45.0</version>
+</Package>
